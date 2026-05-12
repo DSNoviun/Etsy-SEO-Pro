@@ -33,3 +33,12 @@
 .animate-spin-slow {
   animation: spin-slow 8s linear infinite;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
